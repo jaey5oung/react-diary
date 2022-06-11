@@ -21,6 +21,7 @@ const DiaryEditor = ({ onCreate }) => {
     if (state.author.length < 1) {
       authorInput.current.focus()
       // ! 레퍼런스 객체
+      // ! 코드 수정 x Ref Test
       return
     }
     if (state.content.length < 5) {
