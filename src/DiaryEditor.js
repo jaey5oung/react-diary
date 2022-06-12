@@ -22,6 +22,7 @@ const DiaryEditor = ({ onCreate }) => {
       authorInput.current.focus()
       // ! 레퍼런스 객체
       // ! 코드 수정 x Ref Test
+      // ! 마지막 주석 커밋
       return
     }
     if (state.content.length < 5) {
